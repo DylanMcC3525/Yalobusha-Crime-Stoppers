@@ -17,10 +17,12 @@ const Footer = () => {
             <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'></link>
      
             <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+            <div className={styles.imgDIV}>
+                <img className={styles.msDPT} src="crimeLogo-2.png"></img>
+            </div>
             <div>
-            
-            <h1>Yalobusha Crime Stoppers</h1>
-            <h2>Submit a Tip</h2>
+            <p>Yalobusha Crime Stoppers</p>
+            <p>Submit a Tip</p>
             <div className={styles.call}>
             <div>
             <a className={styles.icons} href="tel:18669338477"><i className='bx bx-phone-call bx-tada-hover'></i></a>
@@ -28,7 +30,7 @@ const Footer = () => {
             {/* {isHovered && openEnvelope()}
             {!isHovered && closeEnvelope()} */}
             </div>
-            <h2 className={styles.paragraph}><a href="tel:18669338477" className={styles.phoneLink} >Call: 1-866-933-TIPS (8477)</a></h2>
+            <p className={styles.paragraph}><a href="tel:18669338477" className={styles.phoneLink} >Call: 1-866-933-TIPS (8477)</a></p>
             </div>
 </div>
 
