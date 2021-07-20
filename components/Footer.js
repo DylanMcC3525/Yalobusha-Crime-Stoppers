@@ -18,7 +18,7 @@ const Footer = () => {
      
             <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
             <div className={styles.imgDIV}>
-                <img className={styles.msDPT} src="crimeLogo-2.png"></img>
+                <img className={styles.crimeLogo} src="crimeLogo3.png"></img>
             </div>
             <div>
             <p>Yalobusha Crime Stoppers</p>
@@ -26,9 +26,7 @@ const Footer = () => {
             <div className={styles.call}>
             <div>
             <a className={styles.icons} href="tel:18669338477"><i className='bx bx-phone-call bx-tada-hover'></i></a>
-            
-            {/* {isHovered && openEnvelope()}
-            {!isHovered && closeEnvelope()} */}
+                
             </div>
             <p className={styles.paragraph}><a href="tel:18669338477" className={styles.phoneLink} >Call: 1-866-933-TIPS (8477)</a></p>
             </div>
@@ -37,10 +35,7 @@ const Footer = () => {
             <div className={styles.imgDIV}>
                 <img className={styles.msDPT} src="DPS-logo.png"></img>
             </div>
-            {/* <div className={styles.twitter}>
-                <a target="_blank" className={styles.icons} href="https://www.twitter.com/YalobushaSO"><i class='bx bxl-twitter'></i></a>
-
-            </div> */}
+          
 
 
         </footer>
