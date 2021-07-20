@@ -100,12 +100,18 @@ font-size: 40px;
     
     .paragraph {
         margin: 0px;
+        font-size: 1.4rem;
+        
     }
     
     
     .msDPT{
         width: 150px;
         height: 60px;
+        display: none;
+    }
+    .headers{
+        display: none;
     }
 }
 
@@ -113,5 +119,6 @@ font-size: 40px;
     .msDPT{
         width: 350px;
         height: 140px;
+        display: none;
     }
 }

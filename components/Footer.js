@@ -21,8 +21,8 @@ const Footer = () => {
                 <img className={styles.crimeLogo} src="crimeLogo3.png"></img>
             </div>
             <div>
-            <p>Yalobusha Crime Stoppers</p>
-            <p>Submit a Tip</p>
+            <p className={styles.headers}>Yalobusha Crime Stoppers</p>
+            <p className={styles.headers}>Submit a Tip</p>
             <div className={styles.call}>
             <div>
             <a className={styles.icons} href="tel:18669338477"><i className='bx bx-phone-call bx-tada-hover'></i></a>
