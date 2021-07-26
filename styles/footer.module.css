@@ -1,6 +1,6 @@
 .icons{
 color: white;
-font-size: 40px;
+font-size: 20px;
 
 
 }
@@ -13,8 +13,8 @@ font-size: 40px;
     background-size: cover;
     background-position-x: center;
     position: sticky;
-    font-size: 1.7rem;
-    height: 35vh;
+    font-size: 1rem;
+    height: 20vh;
     padding-top: 1rem;
     display: grid;
     grid-template-columns: repeat(3, minmax(455px, 1fr));
@@ -29,7 +29,7 @@ font-size: 40px;
 .call {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center
     
 }
 
@@ -49,12 +49,12 @@ font-size: 40px;
 }
 
 .msDPT{
-    width: 300px;
-    height: 140px;
+    width: 200px;
+    height: 70px;
 }
 .crimeLogo{
-    width: 300px;
-    height: 180px;
+    width: 200px;
+    height: 90px;
 }
 
 .twitter{
