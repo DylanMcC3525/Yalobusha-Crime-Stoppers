@@ -41,7 +41,8 @@
         justify-content: space-between;
         position: sticky;
         padding-right: 1em;
-        background-color: rgb(63, 62, 62) !important;
+        background-color: rgba(230, 227, 227, 0.8);
+
     }
     
     .links {
