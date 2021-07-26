@@ -1,10 +1,15 @@
 .landing {
-    height: 100vh;
-    background: 
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../public/yalobusha.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: -999;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .center {
@@ -79,9 +84,6 @@
     }
 	.landing {
 		height: 100vh;
-		background: 
-		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../public/yalobusha.jpeg);
 		background-size: cover;
 		background-repeat: no-repeat;
 	}

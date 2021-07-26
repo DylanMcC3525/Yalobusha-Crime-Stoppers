@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import {TwitterFollowButton} from 'react-twitter-embed';
+import BackgroundSlider from 'react-background-slider';
 
 const index = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -16,6 +17,8 @@ const index = () => {
 
   return (
     <div className={styles.landing}>
+      <BackgroundSlider images={["watervalley.jpeg", "coffeeville.jpg", "oakland.jpeg"]} transition={1} duration={5}/>
+      <div className={styles.overlay}></div>
       <div className={styles.center}>
         <div className={styles.main}>
         <h1 className={styles.text}>Yalobusha County Crime Stoppers</h1>
