@@ -86,12 +86,16 @@
 	margin: 4px;
 }
 
+.navbar-toggler {
+	color: black !important;
+}
+
 @media only screen and (max-width: 600px) {
     .twitterFeed {
        display: none; 
     }
 	.landing {
-		height: 100vh;
+		height: 85vh;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
