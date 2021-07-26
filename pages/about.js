@@ -36,6 +36,9 @@ export default function AboutUs() {
                 to make the streets safer for our families and
                 neighborhoods.
               </p>
+              <p>
+              Yalobusha County Crime Stoppers breaks through the two barriers of apathy and fear of reprisal. Cash rewards reduce apathy. Although many people refuse rewards, the availability of cash is an incentive to citizens who may not otherwise give information. Fear of reprisal is reduced because callers remain completely anonymous throughout the process.   
+              </p>
             </div>
         
           <h1 className={styles.HIWHeader}>Tip Process</h1>
@@ -48,7 +51,7 @@ export default function AboutUs() {
               TIPS (8477). You don't have to give
               your name! An operator will take your
               information and assign you a code
-              number. If an arrest is made, you call
+              number. If there is an arrest and indictment in the case, you call
               Crime Stoppers again, provide your
               code number, and a reward will be paid
               - no questions asked!
@@ -60,27 +63,16 @@ export default function AboutUs() {
             <p>
               <strong>
               Rewards range from $300 to $1,000. This is based on the severity of the crime.
-              If your information leads to an arrest,
-              you could receive a reward of up to
+              If your tip leads to an arrest and indictment, you could receive up to
               $1,000.
               </strong>
             </p>
+            <p>
+            The information you have may help solve a crime or prevent further crime from occurring. It could be the piece of the puzzle that police are looking for or it could be new information that police are unaware of. It does not matter how trivial you may think it is, it might be important to an investigation.
+            </p>
         
           </div>
-          <h1 className={styles.WYSCHeader}>Why You Should Call</h1>
-          <div className={styles.content}>
-            <p>
-              Yalobusha County Crime Stoppers breaks
-              through the barriers. Callers remain
-              completely anonymous.<strong> “Better to have anonymous
-              information than no information at all.” </strong>
-              The offering of cash rewards crosses the
-              barrier of apathy. Although many people
-              refuse rewards, the availability of cash is an
-              incentive to many callers who may not have
-              otherwise given information.
-            </p>
-          </div>
+          
       </div>
       </body> 
     )
