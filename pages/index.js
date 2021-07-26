@@ -7,12 +7,16 @@ import {TwitterFollowButton} from 'react-twitter-embed';
 import BackgroundSlider from 'react-background-slider';
 
 const index = () => {
-  const [isHovered, setIsHovered] = useState(false);
-  const toggleHover = () => setIsHovered(!isHovered);
+  const [isAboutHovered, setIsAboutHovered] = useState(false);
+  const [isProcessHovered, setIsProcessHovered] = useState(false);
+
+  const toggleAboutHover = () => setIsAboutHovered(!isAboutHovered);
+  const toggleProcessHover = () => setIsProcessHovered(!isProcessHovered);
+
 
   const variants = {
-    hovered: {scale: 1.5},
-    nonHovered: {scale: 1}
+    hovered: {scale: 2},
+    nonHovered: {scale: 1.5}
   }
 
   return (
@@ -24,13 +28,21 @@ const index = () => {
         <h1 className={styles.text}>Yalobusha County Crime Stoppers</h1>
         <p className={styles.slogan}>If you see something, or hear something, say something!</p>
         <div className={styles.buttons}>
-          <Link href="about">
-            <motion.a className={isHovered ? styles.transparent_btn_Hover : styles.button} 
-            onMouseEnter={toggleHover} 
-            onMouseLeave={toggleHover}
-            animate={isHovered ? "hovered" : "nonHovered"}
+          <Link href="about#about">
+            <motion.a className={isAboutHovered ? styles.transparent_btn_Hover : styles.button} 
+            onMouseEnter={toggleAboutHover} 
+            onMouseLeave={toggleAboutHover}
+            animate={isAboutHovered ? "hovered" : "nonHovered"}
             variants={variants}>
-            Learn More</motion.a>
+            About Us</motion.a>
+          </Link>
+          <Link href="about#tip_process">
+            <motion.a className={isProcessHovered ? styles.transparent_btn_Hover : styles.button} 
+            onMouseEnter={toggleProcessHover} 
+            onMouseLeave={toggleProcessHover}
+            animate={isProcessHovered ? "hovered" : "nonHovered"}
+            variants={variants}>
+            The Tip Process</motion.a>
           </Link>
         </div>
         </div>

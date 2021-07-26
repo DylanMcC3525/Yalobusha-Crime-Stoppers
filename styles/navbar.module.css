@@ -1,5 +1,6 @@
 .nav {
-    background-color: rgb(63, 62, 62) !important;
+    background-color: rgba(230, 227, 227, 0.8);
+    z-index: 1000;
 }
 
 .links {

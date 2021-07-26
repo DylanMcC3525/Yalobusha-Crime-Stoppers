@@ -5,7 +5,7 @@ import styles from '../styles/about.module.css'
 export default function AboutUs() {
     return (
       <body className={styles.body}>
-      <div className={styles.container}>
+      <div className={styles.container} id="about">
           <h1 className={styles.AboutHeader}>About Us</h1>
             <div className={styles.content}>
               <p>
@@ -41,7 +41,7 @@ export default function AboutUs() {
               </p>
             </div>
         
-          <h1 className={styles.HIWHeader}>Tip Process</h1>
+          <h1 className={styles.HIWHeader} id="tip_process">Tip Process</h1>
           <div className={styles.content}>
             
           <p>
