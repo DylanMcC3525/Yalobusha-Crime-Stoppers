@@ -22,7 +22,7 @@ const index = () => {
   return (
     <div className={styles.landing}>
       <div className={styles.overlay}></div>
-      <BackgroundSlider images={["watervalley1.jpg", "coffeeville1.jpeg", "oakland1.jpeg", "watervalley2.jpg",  "coffeeville2.jpeg", "oakland2.jpeg", "watervalley3.jpeg", "coffeeville3.jpeg", "yalobusha.jpeg", "oakland3.jpeg", "coffeeville4.jpeg"]} transition={1} duration={5}/>
+      <BackgroundSlider images={["watervalley1.jpg", "coffeeville1.jpeg", "oakland1.jpeg", "coffeeville2.jpeg", "oakland2.jpeg", "watervalley2.jpeg", "coffeeville3.jpeg", "yalobusha.jpeg", "oakland3.jpeg", "coffeeville4.jpeg"]} transition={1} duration={5}/>
       <div className={styles.center}>
         <div className={styles.main}>
         <h1 className={styles.text}>Yalobusha County Crime Stoppers</h1>
