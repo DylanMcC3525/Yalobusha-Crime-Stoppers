@@ -80,7 +80,7 @@ font-size: 20px;
         background-size: cover;
         background-position-x: center;
         position: sticky;
-        height: 55vh;
+        height: 30vh;
         padding-top: 1rem;
         display: grid;
         grid-template-columns: repeat(1, minmax(120px, 2fr));
