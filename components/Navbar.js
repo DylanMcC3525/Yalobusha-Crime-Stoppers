@@ -2,12 +2,6 @@ import styles from '../styles/navbar.module.css'
 import Link from 'next/link'
 
 const Navbar = () => {
-    const scrollToBottom = () =>{ 
-        window.scrollTo({ 
-          top: document.documentElement.scrollHeight, 
-          behavior: 'auto'
-        }); 
-      }; 
     return (
         
         <nav className={`navbar navbar-expand-lg navbar-light ${styles.nav}`}>
@@ -23,7 +17,6 @@ const Navbar = () => {
                     <div className={`collapse navbar-collapse`} id="navbarNavAltMarkup">
                     <div className={`${styles.collapsed} navbar-nav`}>
                         <Link href="/about"><a className={`${styles.link}`} aria-current="page">About</a></Link>
-                        <a className={`${styles.link}`} onClick={scrollToBottom}>Contact</a>
                     </div>
                     </div>
                 </div>

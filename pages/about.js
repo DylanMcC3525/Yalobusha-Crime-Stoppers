@@ -14,8 +14,8 @@ export default function AboutUs() {
                 assist local law enforcement agencies in the
                 fight against crime by overcoming the two key
                 elements that inhibit community involvement -
-                fear and apathy.  Crime Stoppers provides a
-                telephone number and Web Tips to encourage
+                fear and apathy. Crime Stoppers provides a
+                telephone number to encourage
                 citizens in the community to volunteer vital
                 information helpful to law enforcement
                 agencies to fight against crime.  Callers
