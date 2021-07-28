@@ -12,7 +12,7 @@ font-size: 20px;
     border-top: 1px solid black;
     background-size: cover;
     background-position-x: center;
-    position: absolute;
+    position: sticky;
     bottom: 0;
     left: 0;
     width: 100vw;
