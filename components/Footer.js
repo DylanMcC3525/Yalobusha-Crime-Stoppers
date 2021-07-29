@@ -34,9 +34,9 @@ const Footer = () => {
 
             <div className={styles.imgDIV}>
                 <img className={styles.msDPT} src="DPS-logo.png"></img>
-            </div>
-          
+                <p className={styles.links}>Developed By: <a className={styles.links} href="https://dylanmcc3525.github.io/">Dylan McCreary</a>, <a className={styles.links} href="https://www.sethhogue.com/">Seth Hogue</a>, <a className={styles.links} href="https://travis-alexander.github.io/">Travis Alexander</a></p>
 
+            </div>
 
         </footer>
     )
