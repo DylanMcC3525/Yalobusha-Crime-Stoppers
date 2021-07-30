@@ -82,12 +82,12 @@ font-size: 20px;
     .footer { 
         text-align: center;
         color:rgb(255, 255, 255);
-        background-color: #07020d;
+        background-color: rgba(0, 0, 0, 0.7);
         border-top: 1px solid black;
         background-size: cover;
         background-position-x: center;
         position: sticky;
-        height: 30vh;
+        height: 25vh;
         padding-top: 1rem;
         display: grid;
         grid-template-columns: repeat(1, minmax(120px, 2fr));
@@ -113,11 +113,13 @@ font-size: 20px;
         font-size: 1.4rem;
         
     }
+    .crimeLogo{
+        width: 180px;
+        height: 90px;
+    }
     
     
     .msDPT{
-        width: 150px;
-        height: 60px;
         display: none;
     }
     .headers{
