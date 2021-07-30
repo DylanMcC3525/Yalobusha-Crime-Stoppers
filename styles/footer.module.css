@@ -17,7 +17,7 @@ font-size: 20px;
     left: 0;
     width: 100vw;
     font-size: 1rem;
-    height: 20vh;
+    height: 25vh;
     padding-top: 1rem;
     display: grid;
     grid-template-columns: repeat(3, minmax(455px, 1fr));
@@ -45,7 +45,8 @@ font-size: 20px;
 
 .msDPT{
     width: 200px;
-    height: 70px;
+    height: 80px;
+    
 }
 .crimeLogo{
     width: 200px;
@@ -56,6 +57,20 @@ font-size: 20px;
     position: absolute;
     left: 70em;
     bottom: 4.6em;
+}
+
+.links{
+
+    color: rgb(255, 255, 255, 0.8);
+    padding-top: 3rem;
+    text-align: right;
+    padding-right: 6px;
+    font-size: 12px;
+    
+}
+.links:link{
+    color: rgb(255, 255, 255, 0.8);
+    font-size: 12px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 800px){
